@@ -4,7 +4,7 @@
 Placeholder for all configuration on Unifi for documentation purposes.
 
 ## Sections
-1. [IPTV IGMP Proxy]([url](https://github.com/dP210/Unifi/edit/main/README.md#zero-trust-dns-doh))
+1. [IPTV](https://github.com/dP210/Unifi/edit/main/README.md#iptv)
 2. [Zero-trust DNS (DoH)](https://github.com/dP210/Unifi/edit/main/README.md#zero-trust-dns-doh)
 
 
@@ -46,4 +46,12 @@ Bell uses a VLAN (36) for IPTV traffic which I have mapped to the IPTV LAN (172.
        - Bel IPTV
        - Web Apps 
        ...
+
+### Network Configuration
+![image](https://github.com/user-attachments/assets/b261bcde-57a1-4e9e-add2-b9d219f4f2d5)
+Traffic routing from the WAN to the LAN need to be tagged as VLAN 35/36. 
+
+### IPTV VLAN (100) Configuration
+
+
 ## Zero-trust DNS (DoH)
